@@ -70,6 +70,9 @@ namespace CSharpStudy
 
             Var var2 = new Var();
             var2.Method1();
+
+            MyEnum e2 = new MyEnum();
+            e2.foo();
         }
     }
 }
