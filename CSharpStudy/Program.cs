@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -73,6 +74,23 @@ namespace CSharpStudy
 
             MyEnum e2 = new MyEnum();
             e2.foo();
+
+            // (1) foreach 사용해서 Iteration
+            var list = new MyList();
+
+            foreach (var item in list)
+            {
+                Console.WriteLine(item);
+            }
+
+            // (2) 수동 Iteration
+            var it = list.GetEnumerator();
+
+            Console.WriteLine(it.Current); // 빈칸
+            it.MoveNext();
+            Console.WriteLine(it.Current); // 1
+            it.MoveNext();
+            Console.WriteLine(it.Current); // 2
         }
     }
 }

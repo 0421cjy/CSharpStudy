@@ -46,10 +46,12 @@
     <Compile Include="Lesson\Array.cs" />
     <Compile Include="Lesson\Enum.cs" />
     <Compile Include="Lesson\Condition.cs" />
+    <Compile Include="Lesson\Exception.cs" />
     <Compile Include="Lesson\Loop.cs" />
     <Compile Include="Lesson\Operator.cs" />
     <Compile Include="Lesson\String.cs" />
     <Compile Include="Lesson\Var.cs" />
+    <Compile Include="Lesson\Yield.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
