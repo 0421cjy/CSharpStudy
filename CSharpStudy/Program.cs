@@ -91,6 +91,18 @@ namespace CSharpStudy
             Console.WriteLine(it.Current); // 1
             it.MoveNext();
             Console.WriteLine(it.Current); // 2
+
+            var myPoint = new MyPoint(3, 5);
+            Console.WriteLine(myPoint.ToString());
+
+            var myCustomer = new MyCustomer();
+            myCustomer.Age = 1;
+            myCustomer.Name = "peter";
+
+            Console.WriteLine(myCustomer.Age);
+            Console.WriteLine(myCustomer.Name);
+
+            Console.WriteLine(myCustomer.GetCustomerData());
         }
     }
 }
